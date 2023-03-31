@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head></head>
+<body>
+    
+    <button id="ajaxButton" type="button">Faire une requête XHR</button>
+    <p id="test"></p>
+    
+    <script>
+        let test = document.getElementById('test');
+        document.getElementById("ajaxButton").addEventListener('click', makeRequest);
+        
+        function makeRequest() {
+            
+            fetch('data.html')
+            
+            .then(function(response){
+                
+                return response.text();
+                
+            })
+            
+            .then(function(data){
+                
+                test.innerHTML=data;
+                
+            })
+            
+        }
+        
+    </script>
+</body>
