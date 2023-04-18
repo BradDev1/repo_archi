@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #272635 !important;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    height: 400px;
+    width: 400px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: #cecece;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.title-box{
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    color: #272635;
+}
+
+.input-box{
+    outline: none;
+    width: 70%;
+    height: 40px;
+    border: 0px solid#272635;
+    text-indent: 10px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+    -moz-transform: translate(-50%,-50%) !important;
+    -ms-transform: translate(-50%,-50%) !important;
+    -o-transform: translate(-50%,-50%) !important;
+    color: #cecece !important;
+    background-color: #272635 !important;
+    border: 0px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.text-erreur{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+    -moz-transform: translate(-50%,-50%) !important;
+    -ms-transform: translate(-50%,-50%) !important;
+    -o-transform: translate(-50%,-50%) !important;
+    width: 70%;
+}
+
+.text-box{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+    -webkit-transform: translate(-50%,-50%) !important;
+    -moz-transform: translate(-50%,-50%) !important;
+    -ms-transform: translate(-50%,-50%) !important;
+    -o-transform: translate(-50%,-50%) !important;
+    font-size: 12px;
+    text-align: center;
+    color: #272635;
+}
